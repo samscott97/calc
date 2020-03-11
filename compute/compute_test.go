@@ -48,6 +48,7 @@ func TestEvaluate(t *testing.T) {
 				strconv.FormatFloat(expected, 'G', -1, 64)
 			t.Error(message)
 			fmt.Println("asdfs")
+			fmt.Println("Change from try1a")
 		}
 	}
 }
