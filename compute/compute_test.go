@@ -1,6 +1,7 @@
 package compute
 
 import (
+	"fmt"
 	"math"
 	"strconv"
 	"testing"
@@ -46,6 +47,7 @@ func TestEvaluate(t *testing.T) {
 				" differs from expected value " +
 				strconv.FormatFloat(expected, 'G', -1, 64)
 			t.Error(message)
+			fmt.Println("asdfs")
 		}
 	}
 }
